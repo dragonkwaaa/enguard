@@ -1,0 +1,55 @@
+#fp-nav ul li {
+	margin : 40px 0;
+}
+#fp-nav ul li a span {
+	background : none;
+	width : auto;
+	height : auto;
+	transform : none;
+	right : 0;
+	left : auto;
+	margin : 0;
+}
+#fp-nav ul li a.active span {
+	margin : 0;
+}
+#fp-nav ul li:hover a span {
+	margin : 0;
+	top : 0;
+	left : auto;
+	right : 0;
+	transform : none;
+}
+#fp-nav ul li:first-child a span:before {
+	content : "1번";
+	width : 80px;
+	height : 40px;
+	font-size : 20px;
+	position : absolute;
+	top : -15px;
+	right : -10px;
+	color : lime;
+}
+#fp-nav ul li:nth-child(2) a span:before {
+	content : "2번";
+	width : 80px;
+	height : 40px;
+	font-size : 20px;
+	position : absolute;
+	top : -15px;
+	right : -10px;
+	color : lime;
+}
+#fp-nav ul li:nth-child(3) a span:before {
+	content : "3번";
+	width : 80px;
+	height : 40px;
+	font-size : 20px;
+	position : absolute;
+	top : -15px;
+	right : -10px;
+	color : lime;
+}
+#fp-nav ul li a.active span:before {
+	color : #000;
+}
