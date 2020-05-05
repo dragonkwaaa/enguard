@@ -1,0 +1,260 @@
+html, 
+body{
+	background-color : #fff;
+	min-width: 800px;
+	/* max-width : 1024px; */
+	margin : 0 auto;
+	height : 100%;
+	position : relative;
+}
+.container{
+	margin:0 auto;
+	position:relative;
+	height: 100%;
+}
+.contents {
+    position: relative;
+	background-color : #f4f8fa;
+}
+.dummyImg {
+	display : block;
+	position : relative;
+	width : 100%;
+	padding-top : 58.5%;
+}
+.dummyImg .dummyBack {
+	position : absolute;
+	top : 0;
+	left : 0;
+	width : 100%;
+	height : 100%;
+	background-color : #afafaf;
+}
+.section {
+	position : relative;
+}
+.headLine.underSectionSort {
+	position : absolute;
+	top : 28px;
+	left : 0;
+	width : 100%;
+	z-index : 10;
+	font-size : 0;
+}
+
+.headLine.underSectionSort .titleBox {
+	display : inline-block;
+	margin : 0 50px 0 40px;
+	font-size : 24px;
+	font-weight : 800;
+	color : #fff;
+	vertical-align : middle;
+}
+.headLine.underSectionSort .menuTab {
+	display : inline-block;
+	vertical-align : middle;
+	font-size : 15px;
+	color : #fff;
+}
+.headLine.underSectionSort .menuTab li {
+	display : inline-block;
+}
+.headLine.underSectionSort .menuTab li + li {
+	margin-left : 40px;
+}
+.rightMenuBox.underHeadlineSort {
+	float : right;
+	vertical-align : middle;
+	margin : 0 40px 0 0;
+}
+.rightMenuBox.underHeadlineSort a {
+	font-size : 15px;
+	color : #fff;
+	display : inline-block;
+	vertical-align : middle;
+}
+.rightMenuBox.underHeadlineSort a + a {
+	margin : 0 0 0 40px;
+}
+.section .backImgBox {
+	display : block;
+	position : relative;
+}
+.section .backImgBox .backgroundMainImg {
+	width : 100%;
+	height : 100%;
+}
+.textGroup.insideImgSort {
+	position : absolute;
+	top : 128px;
+	left : 125px;
+}
+.textGroup.insideImgSort div {
+	font-size : 50px;
+	line-height : 70px;
+	color : #fff;
+	font-weight : 800;
+}
+.goodsImg.devivedSort {
+	width : 310px;
+	height : 431px;
+	display : inline-block;
+	vertical-align : middle;
+}
+.goodsInfoGroup.underSectionSort {
+	display : block;
+	position : relative;
+	text-align : center;
+	padding : 68px 0;
+}
+.goodsInfoGroup.underSectionSort:before {
+	content : "";
+	position : absolute;
+	top : 50%;
+	left : 0;
+	transform : translateY(-50%);
+	width : 100%;
+	height : 302px;
+	background-color : #f1f1f1;
+	z-index : -1;
+}
+.goodsInfoGroup.underSectionSort .infoTextGroup {
+	display : inline-block;
+	vertical-align : middle;
+	margin-left : 50px;
+	text-align : left;
+}
+.goodsInfoGroup.underSectionSort .infoTextGroup .textInfoBtn {
+	display : block;
+	color : #fff;
+	background-color : #54a4bf;
+	font-size : 15px;
+	height : 50px;
+	line-height : 50px;
+	width : 144px;
+	text-align : center;
+}
+
+.reviewTotalGroup.underSectionSort {
+	display : block;
+	position : relative;
+}
+.reviewTotalGroup.underSectionSort .listOpenBtn.reviewListSort {
+	display : block;
+	text-align : center;
+	background-color : #54a4bf;
+	height : 80px;
+	padding : 30px 0;
+	position : relative;
+	margin : 0 0 45px 0;
+}
+.reviewTotalGroup.underSectionSort .listOpenBtn.reviewListSort:before {
+	content : "";
+	position : absolute;
+	bottom : -14px;
+	left : 50%;
+	-webkit-transform : translateX(-50%);
+	transform : translateX(-50%);
+	width: 0; 
+	height: 0; 
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-top: 15px solid #54a4bf;
+}
+.listGroup.reviewListSort {
+	width : calc(100% - 226px);
+	margin : 0 auto;
+	padding : 0 0 100px 0;
+}
+.listGroup.reviewListSort li {
+	display : block;
+	height : 80px;
+	border-radius : 6px;
+  	box-shadow : 0 5px 30px 0 rgba(0, 0, 0, 0.29);
+  	background-color : #ffffff;
+}
+.listGroup.reviewListSort li + li {
+	margin-top : 15px;
+}
+.listGroup.reviewListSort li a {
+	display : block;
+	position : relative;
+	line-height : 80px;
+	padding : 0 30px;
+}
+.listGroup.reviewListSort li a span {
+	display : inline-block;
+	vertical-align : middle;
+	font-size : 15px;
+}
+.listGroup.reviewListSort li .reviewDate {
+	min-width : 84px;
+	margin : 0 30px 0 0;
+}
+.listGroup.reviewListSort li .reviewTitle {
+	width : calc(100% - 300px);
+	text-overflow : ellipsis;
+	white-space : nowrap;
+	overflow : hidden;
+}
+.listGroup.reviewListSort .ratingGroup {
+	position : absolute;
+	top : 50%;
+	right : 30px;
+	transform : translateY(-50%);
+	-webkit-transform : translateY(-50%);
+}
+.ratingGroup .ratingStar {
+	display : inline-block;
+	width : 20px;
+	height : 20px;
+	margin : 0 4px 0 0;
+	background : url(/nGuard/common/img/icon_starOff.png) no-repeat center / cover;
+}
+.ratingGroup .ratingStar.activated {
+	background : url(/nGuard/common/img/icon_starOn.png) no-repeat center / cover;
+}
+.ratingGroup .ratingStar:last-child {
+	margin : 0;
+}
+.footerConGroup.underSectionSort {
+	display : block;
+	position : relative;
+	width : calc(100% - 226px);
+	height : 157px;
+	padding : 43px 113px 0 113px;
+	background-color : #f1f1f1;
+}
+.footerConGroup.underSectionSort .titleBox {
+	display : inline-block;
+	font-size : 20px;
+	font-weight : 800;
+	margin : 0 60px 0 0;
+	vertical-align : top;
+}
+.footerConGroup.underSectionSort .footerMenuGroup {
+	display : inline-block;
+	vertical-align : top;
+}
+.footerConGroup.underSectionSort .footerMenuGroup a {
+	display : block;
+	font-size : 15px;
+	margin-bottom : 30px;
+}
+.footerConGroup.underSectionSort .footerMenuGroup a:last-child {
+	margin-bottom : 0;
+}
+.footerConGroup.underSectionSort .footerRightsGroup {
+	position : absolute;
+	top : 43px;
+	right : 113px;
+	font-size : 12px;
+}
+.footerRightsGroup .corpInfoBox {
+	margin : 10px 0 20px 0;;
+	line-height : 20px;
+}
+.footerRightsGroup .callNumber {
+	font-size : 20px;
+	font-weight : 800;
+}

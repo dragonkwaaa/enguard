@@ -1,0 +1,58 @@
+html.fp-enabled, 
+.fp-enabled body {
+	margin : 0 auto;
+	overflow : initial;
+	overflow-y : hidden;
+}
+
+#fp-nav ul li {
+	margin : 40px 0;
+}
+#fp-nav ul li a span {
+	background : none;
+	width : auto;
+	height : auto;
+	transform : none;
+	right : 0;
+	left : auto;
+	margin : 0;
+}
+#fp-nav ul li a.active span {
+	margin : 0;
+}
+#fp-nav ul li:hover a span {
+	margin : 0;
+	top : 0;
+	left : auto;
+	right : 0;
+	transform : none;
+}
+#fp-nav ul li a span:before {
+	width : 120px;
+	height : 40px;
+	font-size : 15px;
+	position : absolute;
+	top : -15px;
+	right : 30px;
+	color : #a6a6a6;
+	text-align : right;
+}
+#fp-nav ul li:first-child a span:before {
+	content : "MAIN";
+}
+#fp-nav ul li:nth-child(2) a span:before {
+	content : "PRODUCT";
+}
+#fp-nav ul li:nth-child(3) a span:before {
+	content : "REVIEW";
+}
+#fp-nav ul li:nth-child(4) a span:before {
+	content : "SERVICE";
+}
+#fp-nav ul li a.active span:before {
+	color : #000;
+	font-weight : 800;
+}
+#fp-nav.right {
+	position : absolute;;
+}
