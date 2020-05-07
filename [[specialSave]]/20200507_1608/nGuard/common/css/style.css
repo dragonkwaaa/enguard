@@ -1,0 +1,436 @@
+html, 
+body{
+	background-color : #fff;
+	min-width: 800px;
+	/* max-width : 1024px; */
+	margin : 0 auto;
+	height : 100%;
+	position : relative;
+}
+.container{
+	margin:0 auto;
+	position:relative;
+	height: 100%;
+}
+.contents {
+    position: relative;
+	background-color : #f4f8fa;
+}
+.dummyImg {
+	display : block;
+	position : relative;
+	width : 100%;
+	padding-top : 58.5%;
+}
+.dummyImg .dummyBack {
+	position : absolute;
+	top : 0;
+	left : 0;
+	width : 100%;
+	height : 100%;
+	background-color : #afafaf;
+}
+.section {
+	position : relative;
+}
+
+.headLine.pageTopSort {
+	position : fixed;
+	top : 0;
+	left : 0;
+	width : 100%;
+	height : 91px;
+	line-height : 91px;
+	z-index : 10;
+	font-size : 0;
+	background-color : #000;
+}
+.headLine.pageTopSort.clearBG {
+	background-color : transparent;
+}
+.headLine.pageTopSort .titleBox {
+	display : inline-block;
+	margin : 0 50px 0 40px;
+	width : 111px;
+	line-height : 91px;
+	/* font-size : 24px;
+	font-weight : 800;
+	color : #fff;
+	vertical-align : middle;
+	font-family: 'Verdana',sans-serif; */
+}
+.headLine.pageTopSort .titleBox img {
+	width : 100%;
+	height : 100%;
+}
+.headLine.pageTopSort .menuTab {
+	display : inline-block;
+	vertical-align : middle;
+	font-size : 15px;
+	color : #fff;
+}
+.headLine.pageTopSort .menuTab li {
+	display : inline-block;
+}
+.headLine.pageTopSort .menuTab li + li {
+	margin-left : 40px;
+}
+.headLine.pageTopSort .menuTab li a {
+	font-family: 'Verdana',sans-serif;
+}
+
+
+
+.rightMenuBox.underHeadlineSort {
+	float : right;
+	vertical-align : middle;
+	margin : 0 40px 0 0;
+}
+.rightMenuBox.underHeadlineSort a {
+	font-size : 15px;
+	font-weight : 200;
+	color : #fff;
+	display : inline-block;
+	vertical-align : middle;
+}
+.rightMenuBox.underHeadlineSort a + a {
+	margin : 0 0 0 40px;
+}
+
+.section.firstRowSect {
+	margin-bottom : -91px;
+}
+.section.secondRowSect {
+	padding-top : 91px;
+	margin-bottom : -91px;
+}
+.section.thirdRowSect {
+	padding-top : 30px;
+	margin-bottom : -91px;
+}
+.section.fourthRowSect {
+	padding-top : 91px;
+}
+
+.section .backImgBox {
+	display : block;
+	position : relative;
+	width : 100%;
+	max-width : 100vw;
+	max-height : 100vh;
+	overflow : hidden;
+}
+.section .backImgBox .backgroundMainImg {
+	width : 100%;
+	height : 100%;
+}
+.textGroup.insideImgSort {
+	position : absolute;
+	top : 128px;
+	left : 125px;
+}
+.textGroup.insideImgSort div {
+	font-size : 50px;
+	line-height : 70px;
+	color : #fff;
+	font-weight : 800;
+}
+.goodsImg.devivedSort {
+	width : 431px;
+	height : 501px;
+	display : inline-block;
+	vertical-align : middle;
+}
+.goodsInfoGroup.underSectionSort {
+	display : block;
+	position : relative;
+	text-align : center;
+	padding : 100px 0 0 0;
+}
+.goodsInfoGroup.underSectionSort:before {
+	content : "";
+	position : absolute;
+	top : 50%;
+	left : 0;
+	transform : translateY(-50%);
+	width : 100%;
+	height : 302px;
+	background-color : #f1f1f1;
+	z-index : -1;
+}
+.goodsInfoGroup.underSectionSort .infoTextGroup {
+	display : inline-block;
+	vertical-align : middle;
+	margin-left : 65px;
+	text-align : left;
+}
+
+.goodsInfoGroup.underSectionSort .infoTextGroup .logoImg {
+	display : block;
+	width : 159px;
+	height : 43px;
+	background : url(/nGuard/common/img/logo_singleWhite.png) no-repeat center / cover;
+	margin : 0 0 -10px 0;
+}
+
+.goodsInfoGroup.underSectionSort .infoTextGroup .textInfoBtn {
+	display : block;
+	color : #000000;
+	background-color : #fff;
+	font-size : 15px;
+	font-weight : 800;
+	height : 50px;
+	line-height : 50px;
+	width : 144px;
+	text-align : center;
+}
+.goodsInfoGroup.underSectionSort .infoCase {
+	position : relative;
+	min-height : 572px;
+	padding : 72px 0 0 0;
+}
+.goodsInfoGroup.underSectionSort .infoCase:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 100%;
+    background-color: #a1c5d3;
+    z-index: -1;
+}
+
+.section .underSectionSort > .titleBox {
+	font-size : 30px;
+	font-weight : 800;
+	font-family: 'Verdana',sans-serif;
+	margin : 0 0 50px 0;
+}
+
+.reviewTotalGroup.underSectionSort {
+	display : block;
+	position : relative;
+	padding :  194px 0 0;
+}
+.reviewTotalGroup.underSectionSort .listOpenBtn.reviewListSort {
+	display : block;
+	text-align : center;
+	/* background-color : #59C6EB; */
+	/* height : 80px; */
+	/* padding : 30px 0; */
+	position : relative;
+	/* margin : 0 0 45px 0; */
+}
+/* .reviewTotalGroup.underSectionSort .listOpenBtn.reviewListSort:before {
+	content : "";
+	position : absolute;
+	bottom : -14px;
+	left : 50%;
+	-webkit-transform : translateX(-50%);
+	transform : translateX(-50%);
+	width: 0; 
+	height: 0; 
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-top: 15px solid #59C6EB;
+} */
+
+
+.listGroup.reviewSlideSort {
+	width : 100%;
+	height : 570px;
+	background-color : #f1f1f1;
+}
+.listGroup.reviewSlideSort .sliderGroup {
+	width : calc(100% - 240px);
+	margin : 0 auto;
+	padding : 140px 0 130px 0;
+}
+
+.listGroup.reviewSlideSort .sliderCaseSingle {
+	display : inline-block;
+	/* height : 80px; */
+	/* border-radius : 6px; */
+	/* box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.15); */
+  	/* background-color : #ffffff; */
+}
+.listGroup.reviewSlideSort .sliderCaseSingle .reviewImg {
+	display : inline-block;
+	vertical-align : top;
+	width : 300px;
+	height : 300px;
+}
+.listGroup.reviewSlideSort .sliderCaseSingle .reviewTextGroup {
+	display : inline-block;
+	margin : 40px 0 0 72px;
+	vertical-align : top;
+	min-height : 300px;
+}
+
+.sliderCaseSingle .reviewTextGroup .reviewTitle {
+	font-size : 30px;
+	margin-bottom : 10px;
+	/* font-family: 'Verdana',sans-serif; */
+	font-weight : 800;
+}
+.sliderCaseSingle .reviewTextGroup .reviewSpec {
+	font-size : 15px;
+	font-weight : 200;
+	margin-top : 15px;
+} 
+.sliderCaseSingle .reviewTextGroup .reviewDate {
+	font-family: 'Verdana',sans-serif;
+	font-size : 15px;
+}
+.slick-dots {
+	bottom : 60px;
+	z-index : 50;
+}
+.slick-dots li {
+    width: 8px;
+    height: 8px;
+}
+.slick-dots li button {
+	width : 8px;
+	height : 8px;
+}
+.slick-dots li button:before {
+	content : "";
+	width : 8px;
+	height : 8px;
+	border-radius : 50%;
+	background-color : #000;
+}
+/* 
+.listGroup.reviewSlideSort li + li {
+	margin-top : 15px;
+}
+.listGroup.reviewSlideSort li a {
+	display : block;
+	position : relative;
+	line-height : 80px;
+	padding : 0 30px;
+}
+.listGroup.reviewSlideSort li a span {
+	display : inline-block;
+	vertical-align : middle;
+	font-size : 15px;
+}
+.listGroup.reviewSlideSort li .reviewDate {
+	min-width : 84px;
+	margin : 0 30px 0 0;
+	font-family: 'Verdana',sans-serif;
+}
+.listGroup.reviewSlideSort li .reviewTitle {
+	width : calc(100% - 300px);
+	text-overflow : ellipsis;
+	white-space : nowrap;
+	overflow : hidden;
+	font-weight : 200;
+} */
+
+
+
+
+
+
+.listGroup.reviewSlideSort .ratingGroup {
+	margin-bottom : 20px;
+}
+.ratingGroup .ratingStar {
+	display : inline-block;
+	width : 20px;
+	height : 20px;
+	margin : 0 4px 0 0;
+	background : url(/nGuard/common/img/icon_starOff.png) no-repeat center / cover;
+}
+.ratingGroup .ratingStar.activated {
+	background : url(/nGuard/common/img/icon_starOn.png) no-repeat center / cover;
+}
+.ratingGroup .ratingStar:last-child {
+	margin : 0;
+}
+.footerConGroup.underSectionSort {
+	display : block;
+	position : relative;
+	width : calc(100% - 226px);
+	height : 157px;
+	padding : 43px 113px 0 113px;
+	border-top : 1px solid #000;
+	/* background-color : #f1f1f1; */
+}
+.footerConGroup.underSectionSort .titleBox {
+	display : inline-block;
+	font-size : 20px;
+	font-weight : 800;
+	margin : 0 60px 0 0;
+	vertical-align : top;
+	font-family: 'Verdana',sans-serif;
+}
+.footerConGroup.underSectionSort .footerMenuGroup {
+	display : inline-block;
+	vertical-align : top;
+}
+.footerConGroup.underSectionSort .footerMenuGroup a {
+	display : block;
+	font-size : 15px;
+	margin-bottom : 30px;
+	font-family: 'Verdana',sans-serif;
+}
+.footerConGroup.underSectionSort .footerMenuGroup a:last-child {
+	margin-bottom : 0;
+}
+.footerConGroup.underSectionSort .footerRightsGroup {
+	position : absolute;
+	top : 43px;
+	right : 113px;
+	font-size : 12px;
+}
+.footerRightsGroup .corpInfoBox {
+	margin : 10px 0 20px 0;;
+	line-height : 20px;
+}
+.footerRightsGroup .callNumber {
+	font-size : 20px;
+	font-weight : 800;
+	font-family: 'Verdana',sans-serif;
+}
+.footerConGroup.underSectionSort .logoImg {
+	display : block;
+	width : 103px;
+	height : 28px;
+	background : url(/nGuard/common/img/logo_underlineBlack.png) no-repeat center / cover;
+}
+
+.fullpageCounter {
+	position : absolute;
+	height : 150px;
+	bottom : 0;
+	right : 40px;
+	vertical-align : bottom;
+}
+.fullpageCounter div {
+	display : block;
+	position : relative;
+	font-family: 'Verdana',sans-serif;
+	font-size : 15px;
+}
+.fullpageCounter div.currentPage {
+	margin-bottom : 10px;
+	font-weight : 600;
+}
+.fullpageCounter div.totalPage {
+	padding-top : 60px;
+	color : #a6a6a6;
+}
+.fullpageCounter div.totalPage:before {
+	content : "";
+	position : absolute;
+	top : 0;
+	left : 9px;
+	width : 2px;
+	text-align : center;
+	height : calc(100% - 25px);
+	background-color : #a6a6a6;
+}
