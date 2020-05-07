@@ -1,0 +1,84 @@
+.cartIcon {
+	width : 29px;
+	height : 26px;
+	background : url(/nGuard/common/img/icon_cart.png) no-repeat center / cover;
+}
+.logoImg {
+	width : 111px;
+	height : 30px;
+	background : url(/nGuard/common/img/logo_underlineWhite.png) no-repeat center / cover;
+}
+
+
+
+.fc_fieldBlue {
+	color : #59C6EB;
+}
+.fc_white {
+	color : #fff;
+}
+
+.fs14 {
+	font-size : 14px;
+}
+.fs26 {
+	font-size : 26px;
+}
+.fs30 {
+	font-size : 30px;
+}
+.fs40 {
+	font-size : 40px;
+}
+
+
+
+.fLight {
+	font-weight : 200;
+}
+.fBold {
+	font-weight : 800;
+}
+.fBoldEX {
+	font-weight : 1000;
+}
+
+
+
+.f_bebas {
+	font-family: 'bebas',sans-serif;
+}
+.f_verdana {
+	font-family: 'Verdana',sans-serif;
+}
+
+
+.ml30 {
+	margin-left : 30px;
+}
+.mb10 {
+	margin-bottom : 10px;
+}
+.mb13 {
+	margin-bottom : 13px;
+}
+.mb19 {
+	margin-bottom : 19px;
+}
+.mb24 {
+	margin-bottom : 24px;
+}
+.mb40 {
+	margin-bottom : 40px;
+}
+
+
+
+
+.lh20 {
+	line-height : 20px;
+}
+.lh40 {
+	line-height : 40px;
+}
+
