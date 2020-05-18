@@ -1,0 +1,1156 @@
+html, 
+body{
+	background-color : #fff;
+	/* min-width: 850px; */
+	/* max-width : 1024px; */
+	margin : 0 auto;
+	height : 100%;
+	position : relative;
+}
+.container{
+	margin:0 auto;
+	position:relative;
+	height: 100%;
+}
+.overlay:before {
+	content : "";
+	position : absolute;
+	top : 0;
+	left : 0;
+	width : calc(100% + 70px);
+	height : calc(100% + 240px);
+	background-color : rgb(0, 0, 0, 0.4);
+	z-index : 100;
+}
+.contents {
+    position: relative;
+	/* background-color : #f4f8fa; */
+}
+.dummyImg {
+	display : block;
+	position : relative;
+	width : 100%;
+	padding-top : 58.5%;
+}
+.dummyImg .dummyBack {
+	position : absolute;
+	top : 0;
+	left : 0;
+	width : 100%;
+	height : 100%;
+	background-color : #afafaf;
+}
+.section {
+	position : relative;
+}
+
+.headLine.pageTopSort {
+	position : fixed;
+	top : 0;
+	left : 0;
+	width : 100%;
+	height : 91px;
+	line-height : 91px;
+	z-index : 10;
+	font-size : 0;
+	background-color : #000;
+}
+.headLine.pageTopSort.clearBG {
+	background-color : transparent;
+}
+
+.headLine.pageTopSort .titleMenuGroup {
+	max-width : 1024px;
+	margin : 0 auto;
+}
+
+
+
+.headLine.pageTopSort .titleBox {
+	display : inline-block;
+	margin : 0 50px 0 40px;
+	width : 111px;
+	line-height : 91px;
+	/* font-size : 24px;
+	font-weight : 800;
+	color : #fff;
+	vertical-align : middle;
+	font-family: 'Verdana',sans-serif; */
+}
+.headLine.pageTopSort .titleBox img {
+	width : 100%;
+	height : 100%;
+}
+.headLine.pageTopSort .menuTab {
+	display : inline-block;
+	vertical-align : middle;
+	font-size : 15px;
+	color : #fff;
+}
+.headLine.pageTopSort .menuTab li {
+	display : inline-block;
+}
+.headLine.pageTopSort .menuTab li + li {
+	margin-left : 40px;
+}
+.headLine.pageTopSort .menuTab li a {
+	font-family: 'Verdana',sans-serif;
+}
+
+
+
+.rightMenuBox.underHeadlineSort {
+	float : right;
+	vertical-align : middle;
+	margin : 0 40px 0 0;
+}
+.rightMenuBox.underHeadlineSort a {
+	font-size : 15px;
+	font-weight : 200;
+	color : #fff;
+	display : inline-block;
+	vertical-align : middle;
+}
+.rightMenuBox.underHeadlineSort a + a {
+	margin : 0 0 0 40px;
+}
+
+.section.firstRowSect {
+	margin-bottom : -91px;
+}
+.section.secondRowSect {
+	padding-top : 91px;
+	margin-bottom : -91px;
+}
+.section.thirdRowSect {
+	padding-top : 30px;
+	margin-bottom : -91px;
+}
+.section.fourthRowSect {
+	padding-top : 91px;
+}
+.section.fourthRowSect:before {
+	content : "";
+	border-top : 1px solid #000;
+	width : 100%;
+	position : absolute;
+	top : 91px;
+	left : 0;
+}
+.section .backImgBox {
+	display : block;
+	position : relative;
+	width : 100%;
+	max-width : 100vw;
+	max-height : 100vh;
+	overflow : hidden;
+}
+.section .backImgBox .backgroundMainImg {
+	width : 100%;
+	height : 100%;
+}
+.textGroup.insideImgSort {
+	position : absolute;
+	top : 128px;
+	left : 125px;
+}
+.textGroup.insideImgSort div {
+	font-size : 50px;
+	line-height : 70px;
+	color : #fff;
+	font-weight : 800;
+}
+.goodsImg.devivedSort {
+	width : 431px;
+	height : 501px;
+	display : inline-block;
+	vertical-align : middle;
+}
+.goodsInfoGroup.underSectionSort {
+	display : block;
+	position : relative;
+	text-align : center;
+	padding : 100px 0 0 0;
+}
+.goodsInfoGroup.underSectionSort:before {
+	content : "";
+	position : absolute;
+	top : 50%;
+	left : 0;
+	transform : translateY(-50%);
+	width : 100%;
+	height : 302px;
+	background-color : #f1f1f1;
+	z-index : -1;
+}
+.goodsInfoGroup.underSectionSort .infoTextGroup {
+	display : inline-block;
+	vertical-align : middle;
+	margin-left : 65px;
+	text-align : left;
+}
+
+.goodsInfoGroup.underSectionSort .infoTextGroup .logoImg {
+	display : block;
+	width : 159px;
+	height : 43px;
+	background : url(/nGuard/common/img/logo_singleWhite.png) no-repeat center / cover;
+	margin : 0 0 -10px 0;
+}
+
+.goodsInfoGroup.underSectionSort .infoTextGroup .textInfoBtn {
+	display : block;
+	color : #000000;
+	background-color : #fff;
+	font-size : 15px;
+	font-weight : 800;
+	height : 50px;
+	line-height : 50px;
+	width : 144px;
+	text-align : center;
+}
+.goodsInfoGroup.underSectionSort .infoCase {
+	position : relative;
+	min-height : 572px;
+	padding : 72px 0 0 0;
+}
+.goodsInfoGroup.underSectionSort .infoCase:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 100%;
+    background-color: #a1c5d3;
+    z-index: -1;
+}
+
+.section .underSectionSort > .titleBox {
+	font-size : 30px;
+	font-weight : 800;
+	font-family: 'Verdana',sans-serif;
+	margin : 0 0 50px 0;
+}
+
+.reviewTotalGroup.underSectionSort {
+	display : block;
+	position : relative;
+	padding :  194px 0 0;
+}
+.reviewTotalGroup.underSectionSort .listOpenBtn.reviewListSort {
+	display : block;
+	text-align : center;
+	/* background-color : #59C6EB; */
+	/* height : 80px; */
+	/* padding : 30px 0; */
+	position : relative;
+	/* margin : 0 0 45px 0; */
+}
+/* .reviewTotalGroup.underSectionSort .listOpenBtn.reviewListSort:before {
+	content : "";
+	position : absolute;
+	bottom : -14px;
+	left : 50%;
+	-webkit-transform : translateX(-50%);
+	transform : translateX(-50%);
+	width: 0; 
+	height: 0; 
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-top: 15px solid #59C6EB;
+} */
+
+
+.listGroup.reviewSlideSort {
+	width : 100%;
+	height : 570px;
+	background-color : #f1f1f1;
+}
+.listGroup.reviewSlideSort .sliderGroup {
+	/* width : calc(100% - 240px); */
+	width : 100%;
+	max-width : 1024px;
+	margin : 0 auto;
+	padding : 140px 0 130px 0;
+}
+
+.listGroup.reviewSlideSort .sliderCaseSingle {
+	display : inline-block;
+	/* height : 80px; */
+	/* border-radius : 6px; */
+	/* box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.15); */
+  	/* background-color : #ffffff; */
+}
+.listGroup.reviewSlideSort .sliderCaseSingle .reviewImg {
+	display : inline-block;
+	vertical-align : top;
+	width : 300px;
+	height : 300px;
+}
+.listGroup.reviewSlideSort .sliderCaseSingle .reviewTextGroup {
+	display : inline-block;
+	margin : 40px 0 0 72px;
+	vertical-align : top;
+	min-height : 300px;
+}
+
+.sliderCaseSingle .reviewTextGroup .reviewTitle {
+	font-size : 30px;
+	margin-bottom : 10px;
+	/* font-family: 'Verdana',sans-serif; */
+	font-weight : 800;
+}
+.sliderCaseSingle .reviewTextGroup .reviewSpec {
+	font-size : 15px;
+	font-weight : 200;
+	margin-top : 15px;
+} 
+.sliderCaseSingle .reviewTextGroup .reviewDate {
+	font-family: 'Verdana',sans-serif;
+	font-size : 15px;
+}
+.slick-dots {
+	bottom : 60px;
+	z-index : 50;
+}
+.slick-dots li {
+    width: 8px;
+    height: 8px;
+}
+.slick-dots li button {
+	width : 8px;
+	height : 8px;
+}
+.slick-dots li button:before {
+	content : "";
+	width : 8px;
+	height : 8px;
+	border-radius : 50%;
+	background-color : #000;
+}
+/* 
+.listGroup.reviewSlideSort li + li {
+	margin-top : 15px;
+}
+.listGroup.reviewSlideSort li a {
+	display : block;
+	position : relative;
+	line-height : 80px;
+	padding : 0 30px;
+}
+.listGroup.reviewSlideSort li a span {
+	display : inline-block;
+	vertical-align : middle;
+	font-size : 15px;
+}
+.listGroup.reviewSlideSort li .reviewDate {
+	min-width : 84px;
+	margin : 0 30px 0 0;
+	font-family: 'Verdana',sans-serif;
+}
+.listGroup.reviewSlideSort li .reviewTitle {
+	width : calc(100% - 300px);
+	text-overflow : ellipsis;
+	white-space : nowrap;
+	overflow : hidden;
+	font-weight : 200;
+} */
+
+
+
+
+
+
+.listGroup.reviewSlideSort .ratingGroup {
+	margin-bottom : 20px;
+}
+.ratingGroup .ratingStar {
+	display : inline-block;
+	width : 20px;
+	height : 20px;
+	margin : 0 4px 0 0;
+	background : url(/nGuard/common/img/icon_starOff.png) no-repeat center / cover;
+}
+.ratingGroup .ratingStar.activated {
+	background : url(/nGuard/common/img/icon_starOn.png) no-repeat center / cover;
+}
+.ratingGroup .ratingStar:last-child {
+	margin : 0;
+}
+.section.footerSort {
+	background-color : #f1f1f1;
+}
+.section.footerSort:before {
+	content : "";
+	position : absolute;
+	top : 0;
+	left : 0;
+	width : 100%;
+	border-top : 1px solid #000;
+}
+.footerConGroup.underSectionSort {
+	display : block;
+	position : relative;
+	width : calc(100% - 226px);
+	max-width : 1024px;
+	margin : 0 auto;
+	height : 157px;
+	padding : 43px 113px 0 113px;
+	/* border-top : 1px solid #000; */
+	/* background-color : #f1f1f1; */
+}
+.footerConGroup.underSectionSort .titleBox {
+	display : inline-block;
+	font-size : 20px;
+	font-weight : 800;
+	margin : 0 60px 0 0;
+	vertical-align : top;
+	font-family: 'Verdana',sans-serif;
+}
+.footerConGroup.underSectionSort .footerMenuGroup {
+	display : inline-block;
+	vertical-align : top;
+}
+.footerConGroup.underSectionSort .footerMenuGroup a {
+	display : block;
+	font-size : 15px;
+	margin-bottom : 30px;
+	font-family: 'Verdana',sans-serif;
+}
+.footerConGroup.underSectionSort .footerMenuGroup a:last-child {
+	margin-bottom : 0;
+}
+.footerConGroup.underSectionSort .footerRightsGroup {
+	position : absolute;
+	top : 43px;
+	right : 113px;
+	font-size : 12px;
+}
+.footerRightsGroup .corpInfoBox {
+	/* margin : 10px 0 20px 0; */
+	margin : 10px 0 10px 0;
+	line-height : 20px;
+}
+.footerRightsGroup .callNumber {
+	font-size : 20px;
+	font-weight : 800;
+	font-family: 'Verdana',sans-serif;
+}
+.footerConGroup.underSectionSort .logoImg {
+	display : block;
+	width : 103px;
+	height : 28px;
+	background : url(/nGuard/common/img/logo_underlineBlack.png) no-repeat center / cover;
+}
+
+.fullpageCounter {
+	position : absolute;
+	height : 150px;
+	bottom : 0;
+	right : 40px;
+	vertical-align : bottom;
+}
+.fullpageCounter div {
+	display : block;
+	position : relative;
+	font-family: 'Verdana',sans-serif;
+	font-size : 15px;
+}
+.fullpageCounter div.currentPage {
+	margin-bottom : 10px;
+	font-weight : 600;
+}
+.fullpageCounter div.totalPage {
+	padding-top : 60px;
+	color : #a6a6a6;
+}
+.fullpageCounter div.totalPage:before {
+	content : "";
+	position : absolute;
+	top : 0;
+	left : 9px;
+	width : 2px;
+	text-align : center;
+	height : calc(100% - 25px);
+	background-color : #a6a6a6;
+}
+
+.section.buyControlSort {
+	display : block;
+	margin : 91px auto 142px auto;
+	padding : 86px 0 0 0;
+	text-align : center;
+	max-width : 1024px;
+}
+
+.section.buyControlSort .devidedGroup.leftSort {
+	display : inline-block;
+	margin-right : 138px;
+	vertical-align : middle; 
+}
+.section.buyControlSort .devidedGroup.leftSort .goodsTitle {
+	font-size : 20px;
+	line-height : 28px;
+	font-weight : 1000;
+	font-family: 'omniGothic',sans-serif;
+}
+.section.buyControlSort .devidedGroup.leftSort .priceBox {
+	font-size : 18px;
+	font-weight : 600;
+	line-height : 26px;
+	color : #a1c5d3;
+	margin : 20px 0 0 0;
+}
+.section.buyControlSort .devidedGroup.leftSort .priceBox .ratingGroup {
+	margin : 20px 0 0 0;
+}
+.section.buyControlSort .devidedGroup.middleSort {
+	display : inline-block;
+	margin-right : 109px;
+	vertical-align : middle; 
+}
+.section.buyControlSort .devidedGroup.middleSort .goodsImg {
+	width : 210px;
+	height : 290px;
+	background : url(/nGuard/common/img/img_maskPack.png) no-repeat center / cover;
+}
+.section.buyControlSort .devidedGroup.rightSort {
+	display : inline-block;
+	vertical-align : middle;
+	text-align : left;
+}
+.section.buyControlSort .devidedGroup.rightSort .titleBox {
+	font-size : 14px;
+	line-height : 26px;
+	margin : 0 0 10px 0;
+}
+.section.buyControlSort .devidedGroup.rightSort .colorDisplayGroup {
+	margin : 0 0 22px 0;
+	display : block;
+}
+.colorDisplayGroup .colorCounts {
+	font-size : 12px;
+	font-weight : 200;
+	line-height : 26px;
+	color : #000;
+	margin : 0 0 6px 0;
+}
+.colorList li {
+	width : 18px;
+	height : 18px;
+	display : inline-block;
+	vertical-align : top;
+}
+.colorList li + li {
+	margin : 0 0 0 10px;
+}
+.colorSchemeRound {
+	width : 100%;
+	height : 100%;
+	display : block;
+	border-radius : 50%;
+	border : 1px solid #000;
+}
+.colorSchemeRound.whiteSort {
+	background-color : #fff;
+}
+.colorSchemeRound.blackSort {
+	background-color : #000;
+}
+.optionSelectGroup .sbox {
+	width : 150px;
+}
+.optionSelectGroup .sbox span {
+	vertical-align : middle;
+}
+.optionSelectGroup .sbox .colorSchemeRound {
+	width : 10px;
+	height : 10px;
+	display : inline-block;
+	/* border-radius : 50%;
+	border : 1px solid #000; */
+	margin : 0 10px 0 0;
+}
+
+/* :: ksg_20200517_1818 open */
+.optionSelectGroup .addBtn {
+	margin : 0 0 0 8px;
+	height : 40px;
+	width : 40px;
+	display : inline-block;
+	position : relative;
+	border: 1px solid #cccccc;
+}
+/* :: ksg_20200517_1818 close */
+
+.optionSelectGroup .addBtn:before {
+	content : "";
+	position : absolute;
+	top : 0;
+	left : 0;
+	width : 40px;
+	height : 40px;
+	background : url(/nGuard/common/img/icon_plus.png) no-repeat center / 14px 13px;
+}
+
+/* :: ksg_20200517_1818 open */
+
+.section.buyControlSort .devidedGroup.rightSort .optionSelectGroup {
+	padding : 0 0 14px 0;
+	border-bottom : 1px solid #000;
+	font-size : 0;
+}
+/* :: ksg_20200517_1818 close */
+
+.quantityBox a.decreaseIcon {
+	vertical-align : middle;
+	display : inline-block;
+	border : 1px solid #b3b3b3;
+	position : relative;
+	width : 16px;
+	height : 16px;
+}
+.quantityBox a.decreaseIcon:before {
+	position : absolute;
+	top : 0;
+	left : 0;
+	content : "";
+	width : 16px;
+	height : 16px;
+	background : url(/nGuard/common/img/icon_minus.png) no-repeat center / 6px 1px;
+}
+.quantityBox {
+	font-size : 0;
+	margin : 19px 0 0 0; 
+}
+.quantityBox a.increaseIcon {
+	vertical-align : middle;
+	display : inline-block;
+	border : 1px solid #b3b3b3;
+	position : relative;
+	width : 16px;
+	height : 16px;
+}
+.quantityBox a.increaseIcon:before {
+	position : absolute;
+	top : 0;
+	left : 0;
+	content : "";
+	width : 16px;
+	height : 16px;
+	background : url(/nGuard/common/img/icon_plus_mini.png) no-repeat center / 6px 6px;
+}
+.quantityBox input.quantity {
+	border : none;
+	background-color : transparent;
+	vertical-align : middle;
+	width : 60px;
+	line-height : 12px;
+	vertical-align : top;
+	text-align : center;
+	font-size : 12px;
+}
+.section.buyControlSort .devidedGroup.rightSort .optionChooseGroup {
+	/* padding : 0 0 14px 0; */
+	margin : -1px 0 -1px 0;
+	border-bottom : 1px solid #000;
+}
+.optionChooseGroup li {
+	padding : 18px 0;
+	position : relative;
+}
+.optionChooseGroup li .delBtn {
+	position : absolute;
+	top : 18px;
+	right : 10px;
+}
+.optionChooseGroup .colorSchemeRound {
+	display : inline-block;
+	width : 10px;
+	height : 10px;
+	margin : 0 10px 0 0;
+	vertical-align : middle;
+}
+.optionChooseGroup .optionNameBox {
+	display : inline-block;
+	vertical-align : middle;
+	font-size : 12px;
+	line-height : 12px;
+}
+.totalPriceGroup {
+	display : block;
+	padding : 20px 0;
+}
+.totalPriceGroup .typeTextBox {
+	font-size : 12px;
+	line-height : 26px;
+	vertical-align : middle;
+}
+.totalPriceGroup .priceBox {
+	float : right;
+	vertical-align : middle;
+	font-size : 18px;
+	line-height : 26px;
+	font-weight : 1000;
+}
+/* :: ksg_20200517_1818 open */
+.section.buyControlSort .devidedGroup.rightSort .btnGroup {
+	font-size : 0;
+}
+.btnGroup .btn.purchaseSort {
+	display : inline-block;
+	vertical-align : middle;
+	width : 150px;
+	height : 40px;
+	line-height : 40px;
+	background-color : #000;
+	color : #fff;
+	font-size : 15px;
+	text-align : center;
+}
+.btnGroup .addBtn.cartSort {
+	margin : 0 0 0 8px;
+	height : 40px;
+	width : 40px;
+	display : inline-block;
+	vertical-align : middle;
+	position : relative;
+	border: 1px solid #cccccc;
+}
+/* :: ksg_20200517_1818 close */
+
+.btnGroup .addBtn.cartSort:before {
+	content : "";
+	position : absolute;
+	top : 0;
+	left : 0;
+	width : 40px;
+	height : 40px;
+	background : url(/nGuard/common/img/icon_cart_black.png) no-repeat center / 24px 22px;
+}
+.section.infoClusterSort {
+	padding : 0 0 100px 0;
+	max-width : 1024px;
+	margin : 0 auto;
+}
+.section.infoClusterSort > .tabsGroup {
+	display : block;
+	/* padding : 0 82px; */
+	margin : 0 0 30px 0;
+	font-size : 0;
+}
+.section.infoClusterSort .tabsGroup li {
+	display : inline-block;
+	width : 20%;
+	text-align : center;
+	padding : 0 0 15px 0;
+}
+.section.infoClusterSort .tabsGroup li.activated {
+	border-bottom : 1px solid #000;
+	font-weight : 1000;
+}
+.section.infoClusterSort .tabsGroup li a {
+	display : block;
+	/* width : 130px; */
+	margin : 0 auto;
+	line-height : 26px;
+	font-size : 15px;
+}
+.clusterConGroup {
+	/* padding : 0 82px; */
+	/* display : none; */
+}
+.clusterConGroup.activated {
+	display : block;
+}
+.clusterConGroup .wholeImg {
+	display : block;
+	width : 100%;
+	height : 100%;
+}
+
+
+/* :: 상품후기 탭 내용 파트 open */
+.SatisfactionGroup {
+    border: 1px solid #e3e3e3;
+    padding: 30px;
+	margin-bottom: 30px;
+	position : relative;
+}
+.SatisfactionGroup.titleText {
+	font-size : 20px;
+}
+.SatisfactionGroup .ratingStatusGroup {
+	top : 50%;
+	right : 30px;
+	position : absolute;
+	transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+.ratingStatusGroup .ratingIconGroup {
+	display : inline-block;
+	vertical-align : middle;
+}
+.ratingIconGroup .rateStar {
+	display: inline-block;
+	position : relative;
+    width: 26px;
+    height: 25px;
+	margin: 0 4px 0 0;
+	background: url(/nGuard/common/img/icon_starOff.png) no-repeat center / cover;
+}
+.ratingIconGroup .rateStar.activated {
+    background: url(/nGuard/common/img/icon_starOn.png) no-repeat center / cover;
+}
+.ratingStatusGroup .ratingCountBox {
+	font-size : 30px;
+	font-weight : 600;
+	margin-left : 15px;
+	vertical-align : middle;
+}
+
+.clusterConGroup.reviewListSort .reviewList li {
+	border-top: 1px solid #e3e3e3;
+	/* padding: 0; */
+	position : relative;
+}
+.clusterConGroup.reviewListSort .reviewList li:first-child {
+	margin-top : 0;
+}
+.clusterConGroup.reviewListSort .reviewList li:last-child {
+    border-bottom: 1px solid #e3e3e3;
+}
+.clusterConGroup.reviewListSort .reviewList .reviewHeadline {
+	width: 100%;
+    display: block;
+    cursor: pointer;
+    position: relative;
+}
+.reviewHeadline .indexNumBox {
+	width : 62px;
+	text-align : left;
+	display : inline-block;
+}
+.clusterConGroup.reviewListSort .reviewList li span {
+	font-size: 12px;
+	line-height: 50px;
+}
+.rating.rigid {
+    display: inline-block;
+    width: 155px;
+    direction: ltr;
+}
+.rating.rigid > .rateStar {
+	width: 14px;
+    height: 13px;
+	display: inline-block;
+	position: relative;
+	background: url(/nGuard/common/img/icon_starOn.png) no-repeat center / cover;
+}
+.rating.rigid .rateStar.actiavted {
+    width: 14px;
+    height: 13px;
+    background: url(/nGuard/common/img/icon_starOn.png) no-repeat center / cover;
+}
+.reviewList .reviewHeadline .reviewTitle {
+    width: 414px;
+    display: inline-block;
+}
+.reviewList .reviewHeadline .reviewerID {
+    width: 102px;
+}
+.reviewList .reviewHeadline .reviewDate {
+	position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+.reviewList .reviewDetailGroup {
+	display : none;
+}
+.reviewList .reviewDetailGroup .reviewText {
+    padding: 20px 60px 0 60px;
+    font-size: 12px;
+    border-top: 1px solid #d9d9d9;
+}
+.reviewList .reviewDetailGroup .reviewImgGroup {
+	padding : 20px 50px;
+}
+.reviewList .reviewDetailGroup .reviewImgGroup img {
+	display : inline-block;
+	width : calc(15% - 20px);
+	margin : 0 10px;
+}
+
+.clusterConGroup.reviewListSort .reviewList ul.pagingGroup li {
+	padding : 0 0 9px 0;
+}
+.emptyListNotice {
+	display : block;
+	font-size : 12px;
+	text-align : center;
+	line-height : 50px;
+}
+/* :: 상품후기 탭 내용 파트 close */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* :: 배송안내 탭 파트 open   */
+.clusterConGroup.noticeListSort {
+	border: 1px solid #e3e3e3;
+	padding : 0;
+	/* width : calc(100% - 164px); */
+	margin : 0 auto;
+}
+.clusterConGroup.noticeListSort .infoList {
+	font-size : 0;
+}
+.clusterConGroup.noticeListSort .infoList li span {
+	font-size : 12px;
+	padding : 11px 0;
+	line-height : 1.5;
+}
+.clusterConGroup.noticeListSort .infoList li span pre {
+	color : #b3b3b3;
+	white-space : pre-wrap;
+}
+.clusterConGroup.noticeListSort .infoList li span.separatedRight,
+.clusterConGroup.noticeListSort .infoList li span.separatedLeft {
+	vertical-align : middle;
+	display : inline-block;
+}
+.clusterConGroup.noticeListSort .infoList li span.separatedRight {
+	width : 55%;
+}
+.clusterConGroup.noticeListSort .infoList li span.separatedLeft {
+	width : 45%;
+	font-weight : 600;
+}
+.clusterConGroup.noticeListSort .infoList li {
+	padding : 0 30px;
+}
+.clusterConGroup .segmentTop {
+	position: relative;
+	font-size : 12px;
+	font-weight : 600;
+    background-color: #fafafa;
+    border-bottom: 1px solid #e3e3e3;
+    padding: 15px 20px;
+}
+.clusterConGroup .infoList li + li {
+    border-top: 1px solid #e3e3e3;
+}
+/* :: 배송안내 탭 파트 close   */
+
+
+/* :: 문의하기 탭 파트 open  */
+.clusterConGroup.questionListSort {
+    padding-top: 77px;
+    position: relative;
+}
+.inquiryPopBtn {
+	padding: 14px 0;
+    text-align: center;
+    font-weight: 600;
+	font-size: 14px;
+	background-color: #64bdc1;
+	color : #fff;
+	display: inline-block;
+	width: 110px;
+	position: absolute;
+    top: 0;
+    right: 82px;
+}
+.clusterConGroup.questionListSort .infoList li:first-child {
+    border-top: 1px solid #d9d9d9;
+}
+.clusterConGroup.questionListSort .infoList li + li {
+    border-top: 1px solid #e3e3e3;
+}
+.clusterConGroup.questionListSort .infoList li:last-child {
+    border-bottom: 1px solid #d9d9d9;
+}
+.clusterConGroup.questionListSort a.qusetionLineGroup {
+    padding: 0px 41px;
+	width: calc(100% - 82px);
+	display : block;
+	position : relative;
+}
+.clusterConGroup.questionListSort .infoList li span {
+    line-height: 50px;
+    font-size: 14px;
+}
+.clusterConGroup.questionListSort .infoList li .qusetionLineGroup span.titleBox {
+    width: 470px;
+	display: inline-block;
+	margin-left : 30px;
+}
+.clusterConGroup.questionListSort .infoList li .qusetionLineGroup span.askUserID {
+	margin-left : 30px;
+}
+.clusterConGroup.questionListSort .infoList li .qusetionLineGroup span.askDate {
+	position : absolute;
+	top : 0;
+	right : 41px;
+}
+.clusterConGroup.questionListSort .inquiryDetailGroup {
+    display: none;
+}
+.popup.inquiryPopup {
+    max-width: 800px;
+    width: 100%;
+}
+.closePopBtn {
+    width: 26px;
+    height: 26px;
+    display: block;
+	background: url(/nGuard/common/img/icon_delete.png) no-repeat center / cover;
+	position : absolute;
+	top : 30px;
+	right : 25px;
+}
+.popup .popupTitleBox {
+    padding: 40px 30px;
+}
+.popupTitleBox .mainTitle {
+    padding: 0 0 28px 0;
+	font-size: 25px;
+	display: block;
+    width: 100%;
+    font-weight: 600;
+    text-align: center;
+    color: #000000;
+}
+.popup .regInfoList {
+    width: 580px;
+    margin: 0 auto 155px;
+}
+ul.regInfoList li.infoGroup {
+    display: block;
+    width: 100%;
+}
+ul.regInfoList li .mainCon {
+    padding: 20px 22px;
+    font-size: 0;
+}
+.popup.inquiryPopup .tArea.inquiryWrite {
+    resize: none;
+    width: calc(100% - 60px);
+    height: 216px;
+    padding: 20px 30px;
+    border: 1px solid #b3b3b3;
+    font-size: 16px;
+}
+.popup.inquiryPopup .btnGroup {
+	width: calc(100% - 74px);
+    margin: 20px auto 0 auto;
+}
+.btnGroup .plainBtn.cancelBtn {
+    width: calc(50% - 10px);
+    padding: 18px 0;
+    font-size: 24px;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid #64bdc1;
+    color: #64bdc1;
+    border-radius: 5px;
+}
+.btnGroup .rimlessBtn.regBtn {
+    width: calc(50% - 10px);
+    padding: 18px 0;
+    font-size: 24px;
+    text-align: center;
+    display: inline-block;
+    background-color: #64bdc1;
+    color: #fff;
+	border-radius: 5px;
+	margin-left : 9px;
+}
+.popup.readyingPopup {
+	padding : 40px;
+	border-radius : 10px;
+	font-size : 25px;
+}
+.section.infoClusterSort .clusterConGroup + .tabsGroup {
+	margin-top : 100px !important;
+}
+/* :: 문의하기 탭 파트 close  */
+
+/* :: 잘못된 페이지 파트 open */
+.section.notFoundSort {
+	margin : 91px 0 0 0;
+	padding : 180px 0;
+	text-align : center;
+}
+.section.notFoundSort .infoGroup {
+	width : auto;
+	display : inline-block;
+	font-size : 0;
+}
+.infoGroup .wordGroup.notFoundSort {
+	text-align : left;
+}
+.wordGroup .infoTextMiddle {
+	font-size : 22px;
+	font-family : 'omniGothic';
+	line-height : 49px;
+	font-weight : 800;
+}
+.wordGroup .infoTextLarge {
+	font-size : 30px;
+	font-family : 'omniGothic';
+	line-height : 46px;
+	font-weight : 800;
+}
+.wordGroup .infoTextSmall {
+	font-size : 14px;
+	line-height : 20px;
+	margin-top : 10px;
+}
+.infoGroup .btn.backPageSort {
+	margin : 40px auto 0 auto;
+	display : block;
+	width : 150px;
+	height : 40px;
+	line-height : 40px;
+	color : #fff;
+	background-color : #000;
+	font-size : 15px;
+	font-family : 'omniGothic';
+}
+/* :: 잘못된 페이지 파트 close */
+
+
+
+
+
+
+
