@@ -1,0 +1,152 @@
+/* :: ksg_20200517_1818 open */
+
+@media(max-width:850px) {
+
+	html, 
+	body {
+		min-width : 100%;
+	}
+
+	/* :: 모바일 헤드라인 파트 open */
+	.headLine.pageTopSort {
+		height : 50px;
+		line-height : 50px;
+	}
+	.headLine.pageTopSort .titleMenuGroup {
+		font-size : 0;
+	}
+	.headLine.pageTopSort .titleBox {
+		margin : 0 0 0 15px;
+		line-height : 50px;
+	}
+	.headLine.pageTopSort .menuTab {
+		text-align : right;
+		width : calc(100% - 126px);
+	}
+	.headLine.pageTopSort .menuTab li {
+		display : none;
+	}
+	.headLine.pageTopSort .menuTab li.mobileReveal {
+		display : inline-block;
+		margin-right : 15px;
+	}
+	.headLine.pageTopSort .menuTab li a.hamBtn {
+		display : block;
+		width : 15px;
+		height : 15px;
+		background : url("/nGuard/common/img/icon_hamBtn.png") no-repeat center / cover;
+	}
+	.logoImg {
+		width : 74px;
+		height : 20px;
+	}
+	/* :: 모바일 헤드라인 파트 close */
+
+
+
+
+
+	/* :: 모바일 메인 first 챕터.open */
+	.section .backImgBox {
+		height : 100vh;
+	}
+	/* :: 모바일 메인 first 챕터.close */
+
+	.section.firstRowSect,
+	.section.secondRowSect,
+	.section.thirdRowSect,
+	.section.fourthRowSect {
+		max-width : 100%;
+		margin-bottom : 0;
+		padding-top : 0;
+	}
+
+
+	/* :: 모바일 메인 second 챕터.open */
+	.goodsInfoGroup.underSectionSort .infoTextGroup {
+		display : none;
+	}
+	/* :: 모바일 메인 second 챕터.close */
+
+
+	/* :: 모바일 메인 third 챕터.open */
+	.listGroup.reviewSlideSort .sliderGroup {
+		max-width : 450px;
+		padding : 20px 0;
+	}
+	.listGroup.reviewSlideSort .sliderCaseSingle .reviewImg {
+		margin : 0 auto;
+		display : block;
+	}
+	/* :: 모바일 메인 third 챕터.close */
+
+	/* :: 모바일 메인 third 챕터. open  */
+	.footerConGroup.underSectionSort {
+		width : calc(100% - 40px);
+		padding : 20px;
+	}
+	.footerConGroup.underSectionSort .footerMenuGroup {
+		display : none;
+	}
+	.footerConGroup.underSectionSort .footerRightsGroup {
+		top : 20px;
+		left : auto;
+		right : 0;
+	}
+	.section.fourthRowSect:before {
+		top : 0;
+	}
+	/* :: 모바일 메인 fourth 챕터. close  */
+
+	.fullpageCounter {
+		right : 20px;
+	}
+	.fullpageCounter div.totalPage {
+		padding-top : 40px;
+	}
+	.section.buyControlSort {
+		padding : 30px 0 0 0;
+	}
+	.section.buyControlSort .devidedGroup.leftSort {
+		margin-right : initial;
+		margin : 0 auto;
+	}
+	.section.buyControlSort .devidedGroup.middleSort {
+		margin-right : initial;
+		margin : 15px auto 0 auto;
+	}
+	.section.buyControlSort .devidedGroup.rightSort {
+		display : block;
+		width : calc(100% - 40px);
+		padding : 0 20px;
+		margin : 15px 0 0 0;
+	}
+	.optionSelectGroup .sbox {
+		width : calc(100% - 50px);
+	}
+	.btnGroup .btn.purchaseSort {
+		width : calc(100% - 50px);
+	}
+	.section.infoClusterSort .tabsGroup li {
+		width : auto;
+		padding : 0 1.389vw 10px 1.389vw;
+	}
+	.section.infoClusterSort .tabsGroup li + li {
+		margin : 0 0 0 1.667vw;
+	}
+	.section.infoClusterSort .tabsGroup li a {
+		font-size : 3.333vw;
+	}
+	.popup.readyingPopup {
+		padding : 20px;
+		font-size : 12px;
+	}
+	.clusterConGroup.questionListSort {
+		padding-top : 50px;
+	}
+	.inquiryPopBtn {
+		right : 20px;
+	}
+}
+
+/* :: ksg_20200517_1818 close */
