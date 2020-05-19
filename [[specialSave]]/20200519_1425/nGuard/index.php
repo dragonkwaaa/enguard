@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/nGuard/common/pages/head.php';?>
+<body>
+<div class="container">
+	<div class="contents">
+		<div class="headLine pageTopSort">
+
+
+
+			<div class="titleMenuGroup">
+				<div class="titleBox">
+					<a href="/nGuard/">
+						<i class="logoImg"></i>
+					</a>
+				</div>
+				<ul class="menuTab">
+					<li>
+						<a href="/nGuard/">HOME</a>
+					</li>
+					<li>
+						<a href="/nGuard/product">SHOP</a>
+					</li>
+					<!-- <li>
+						<a href="javascript:void(0);">SERVICE</a>
+					</li> -->
+
+<!-- :: ksg_20200517_1818 open : 햄버거 아이콘 -->
+					<li class="mobileReveal">
+						<a href="javascript:void(0);" class="hamBtn"></a>
+					</li>
+<!-- :: ksg_20200517_1818 close : 햄버거 아이콘 -->
+
+
+
+				</ul>
+				<!-- <div class="rightMenuBox underHeadlineSort">
+					<a href="javascript:void(0);">로그인</a>
+					<a href="javascript:void(0);">회원가입</a>
+					<a href="javascript:void(0);">
+						<i class="cartIcon"></i>
+					</a>
+				</div> -->
+			</div>
+
+
+
+
+
+		</div>
+		<div class="fullpageCover">
+		    <div class="section firstRowSect fp-auto-height" data-anchor="1">
+				<div class="backImgBox">
+
+
+					<!-- :: ksg_20200517_1818 open : 메인 이미지 변경. -->
+					<img class="backgroundMainImg mobileReveal" src="/nGuard/common/img/img_backgroundMain_alt1.png"/>
+					<img class="backgroundMainImg" src="/nGuard/common/img/img_backgroundMain_alt2.png"/>
+					<!-- :: ksg_20200517_1818 close : 메인 이미지 변경. -->
+
+
+				</div>
+			</div>
+			<div class="section secondRowSect fp-auto-height" data-anchor="2">
+				<div class="goodsInfoGroup underSectionSort">
+					<div class="titleBox">PRODUCTS</div>
+					<div class="infoCase">
+						<img class="goodsImg devivedSort" src="/nGuard/common/img/img_maskBox2.png"/>
+						<div class="infoTextGroup">
+							<i class="logoImg"></i>
+
+
+							<!-- :: ksg_20200517_1818 open : 텍스트 클래스 변경함.  -->
+							<div class="textRow1">Hyper-Purifying Breathing Mask</div>
+							<div class="textRow2">엔가드 마스크</div>
+							<div class="textRow3">
+								나노필터 사용으로 통기성 UP</br>
+								사랑하는 모든 사람들을 위해</br>
+								엔가드로 편안한 나날을 보내세요.
+							</div>
+							<!-- :: ksg_20200517_1818 close : 텍스트 클래스 변경함.  -->
+
+
+							<a href="/nGuard/product/" class="textInfoBtn">제품 보러가기</a>
+						</div>
+
+						<!-- :: ksg_20200517_1818 single : 모바일 이미지 추가함. -->
+						<img class="goodsImg devivedSort mobileReveal" src="/nGuard/common/img/img_maskBox2_mobile.png"/>
+
+						<!-- :: ksg_20200517_1818 single : 모바일 버튼 추가함. -->
+						<a href="/nGuard/product/" class="goodsViewBtn mobileReveal">제품 보러가기</a>
+
+					</div>
+				</div>
+			</div>
+			<div class="section thirdRowSect fp-auto-height" data-anchor="3">
+				<div class="reviewTotalGroup underSectionSort">
+					<a href="javascript:void(0);" class="listOpenBtn reviewListSort">
+
+
+						<!-- :: ksg_20200517_1818 open : 클래스 변경함. -->
+						<span class="textRow1">BEST REVIEW</span>
+						<span class="textRow2">+ 더보기</span>
+						<!-- :: ksg_20200517_1818 close : 클래스 변경함. -->
+
+
+					</a>
+					<div class="listGroup reviewSlideSort">
+						<div class="sliderGroup customSlider">
+							<div class="sliderCaseSingle">
+								<a href="javascript:void(0);">
+									<img src="/nGuard/common/img/img_reviewImg1.png" class="reviewImg"/>
+									<div class="reviewTextGroup">
+										<div class="ratingGroup">
+											<i class="ratingStar activated"></i>
+											<i class="ratingStar activated"></i>
+											<i class="ratingStar activated"></i>
+											<i class="ratingStar activated"></i>
+											<i class="ratingStar activated"></i>
+										</div>
+										<div class="reviewTitle">엔가드 마스크 20매</div>
+										<div class="reviewDate">2020.04.03</div>
+										<div class="reviewSpec">좋은 가격에 잘 구매했네요~</div>
+									</div>
+								</a>
+							</div>
+							<div class="sliderCaseSingle">
+								<a href="javascript:void(0);">
+									<img src="/nGuard/common/img/img_reviewImg1.png" class="reviewImg"/>
+									<div class="reviewTextGroup">
+										<div class="ratingGroup">
+											<i class="ratingStar activated"></i>
+											<i class="ratingStar activated"></i>
+											<i class="ratingStar activated"></i>
+											<i class="ratingStar activated"></i>
+											<i class="ratingStar activated"></i>
+										</div>
+										<div class="reviewTitle">엔가드 마스크 10매</div>
+										<div class="reviewDate">2020.04.03</div>
+										<div class="reviewSpec">좋아요~</div>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="section fourthRowSect fp-auto-height" data-anchor="4">
+				<div class="footerConGroup underSectionSort">
+					<div class="titleBox">
+						<a href="/nGuard/">
+							<i class="logoImg"></i>
+						</a>
+					</div>
+					<div class="footerMenuGroup">
+						<a href="/nGuard/">HOME</a>
+						<a href="/nGuard/product">SHOP</a>
+						<!-- <a href="javascript:void(0);">SERVICE</a> -->
+					</div>
+					<div class="footerRightsGroup">
+						<div class="f_verdana">ⓒ 2020 . ALL RIGHTS RESERVED.</div>
+						<div class="corpInfoBox">
+							<div>이메일 : hclee8800@hanmail.net</div>
+							<div>서울시 강남구 선릉로 818, 6층</div>
+						</div>
+						<div class="callNumber">070-8624-5678</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="fullpageCounter">
+	<div class="currentPage">01</div>
+	<div class="totalPage">04</div>
+</div>
+
+
+
+
+<!-- :: ksg_20200517_1818 open : 햄버거 팝업 -->
+<div class="popup hamburgerPop">
+	<a href="javascript:void(0);" class="closePopBtn whiteSort"></a>
+	
+	
+	<div class="popupTitleBox">
+		<i class="logoImg"></i>
+	</div>
+	<div class="btnGroup linkBtnSort">
+		<a href="/nGuard/">HOME</a>
+		<a href="/nGuard/product">SHOP</a>
+	</div>
+
+
+	<div class="section footerSort">
+		<div class="footerConGroup underSectionSort">
+			<div class="titleBox">
+				<a href="javascript:void(0);">
+					<i class="logoImg"></i>
+				</a>
+			</div>
+			<div class="footerRightsGroup">
+				<div class="f_verdana">ⓒ 2020 . ALL RIGHTS RESERVED.</div>
+				<div class="corpInfoBox">
+					<div>이메일 : hclee8800@hanmail.net</div>
+					<div>서울시 강남구 선릉로 818, 6층</div>
+				</div>
+				<div class="callNumber">070-8624-5678</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- :: ksg_20200517_1818 close : 햄버거 팝업 -->
+
+
+
+
+
+
+<script>
+$(document).ready(function() {
+
+	// :: ksg_20200504_1513 single 페이지 리프레쉬 시 첫번째 앵커로 이동.  (1) -> 다른 방식으로 적용하여 이것은 무력화 함. 
+	// var anchors =[];
+	// for(var i = 1; i<100; i++){
+    // 	anchors.push(i.toString());
+	// }
+
+
+// :: ksg_20200517_1818 open -> if 기능을 통해 모바일에서는 터치(=마우스드래그)로 슬라이드 가능하게 함. 
+
+	if($(window).width() > 850) {
+		$('.fullpageCover').fullpage({
+			verticalCentered: false,	// :: 없으면 다소 난리가 남. (상단의 앱솔루트 헤드라인이 무력화 된다던가...)
+			navigation : true,			// :: 우측에 플로트 되고, 누르면 해당 섹션으로 이동하는 버튼 생겨남. 
+			anchors:['1', '2', '3', '4'],		// :: 각 섹션을 규정하는 내용. "data-anchor" 의 내용과 일치해야 한다.
+			scrollOverflow: true,	// :: 길이가 긴 섹션은 자체적으로 스크롤이 가능하게 함.
+			scrollOverflowOptions: {
+				disablePointer: true,	// :: 마우스 드래그로 스크롤 되는 기능을 방지함.
+			},
+			afterLoad: function(anchorLink, index){            // ::  페이지 번호를 우측 아래에 표시
+   				var slideNumber = $('.fp-section.active').find('.fp-slide.active').index() + 1
+				 
+				 
+				 // :: ksg_20200517_1818 open : 헤드라인 clearBG 관련 내용 제거 
+				 if($('body').hasClass('fp-viewing-1')){
+					
+					// :: 최상단 챕터에 있을 때는 헤드라인에 백그라운드 색상이 들어가게 함. 
+					// $('.headLine.pageTopSort').addClass('clearBG');		
+
+
+					$('.fullpageCounter .currentPage').empty();
+					$('.fullpageCounter .currentPage').append(
+						'01'
+					);
+				} else if($('body').hasClass('fp-viewing-2')) {
+					// $('.headLine.pageTopSort').removeClass('clearBG');
+					$('.fullpageCounter .currentPage').empty();
+					$('.fullpageCounter .currentPage').append(
+						'02'
+					);
+				} else if($('body').hasClass('fp-viewing-3')) {
+					// $('.headLine.pageTopSort').removeClass('clearBG');
+					$('.fullpageCounter .currentPage').empty();
+					$('.fullpageCounter .currentPage').append(
+						'03'
+					);
+				} 
+				else if($('body').hasClass('fp-viewing-4')) {
+					// $('.headLine.pageTopSort').removeClass('clearBG');
+					$('.fullpageCounter .currentPage').empty();
+					$('.fullpageCounter .currentPage').append(
+						'04'
+					);
+				};
+				// :: ksg_20200517_1818 close : 헤드라인 clearBG 관련 내용 제거 
+			}
+			// autoScrolling:false,
+			// :: ksg_20200504_1513 single :  페이지 리프레쉬 시 첫번째 앵커로 이동. (2)  -> 다른 방식으로 적용하여 이것은 무력화 함. 
+			// animateAnchor: parseInt( window.location.hash.replace('#', '') ) < 10
+		});
+	}
+
+	// :: ksg_20200517_1818 single : 화면너비 451 이하에서 풀페이지 기능 파트 지움. 
+
+
+// :: ksg_20200517_1818 close
+
+
+});
+
+
+// :: 페이지 새로고침 시 페이지 최상단이 표시되도록 하는 스크립트. (정확히는, 페이지 자체를 링크 걸어서 연결되도록 한 것임.)
+// :: 이 스크립트 때문에 다른 페이지로 링크 연결이 안 됨. 때문에 죽여놓음. 
+// window.onbeforeunload = function() { 
+//     window.setTimeout(function () { 
+// 		window.location = '/nGuard/';
+//     }, 0); 
+//     window.onbeforeunload = null;
+// }
+
+
+// 리뷰 슬라이드
+$('.sliderGroup.customSlider').slick({
+	dots:true,
+	prevArrow:false,
+	nextArrow:false,
+	autoplay : true,
+	autoplaySpeed : 4000,
+	// dotsClass:'mainBannerDots'
+});
+
+
+// :: ksg_20200517_1818 open : 햄버거 팝업 스크립트.
+// :: 햄버거 팝업 스크립트.
+$(document).on('click', 'a.hamBtn', function(){
+	$('.popup.hamburgerPop').slideDown();
+	$('.contents').addClass('overlay');
+});
+// :: 햄버거 팝업 닫기 스크립트
+$(document).on('click', '.hamburgerPop .closePopBtn', function(){
+	$('.popup').slideUp();
+	$('.contents').removeClass('overlay');
+});
+// :: ksg_20200517_1818 close : 햄버거 팝업 스크립트.
+
+
+</script>
+</body>
+</html>
